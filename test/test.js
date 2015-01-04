@@ -1,11 +1,12 @@
 /*global describe, it */
 'use strict';
 var assert = require('assert');
-var wsSecurity = require('../');
+var WSSecurity = require('../');
 
+// We need a lot more tests here
 describe('ws-security node module', function () {
-  it('must have at least one test', function () {
-    wsSecurity();
-    assert(false, 'I was too lazy to write any tests. Shame on me.');
-  });
+    it('must receive the username and the password', function () {
+        var x = new WSSecurity('username', 'password');
+        assert.equal('username', x._username, 'Username is equal.');
+    });
 });

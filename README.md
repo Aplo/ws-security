@@ -2,6 +2,7 @@
 
 > Implementing WS-Security on SOAP webservices
 
+This module is based on the work from the vpulim/node-soap module. This implementation now makes it available to other SOAP Clients using nodejs.
 
 ## Install
 
@@ -13,9 +14,9 @@ $ npm install --save ws-security
 ## Usage
 
 ```js
-var ws-security = require('ws-security');
+var WSSecurity = require('ws-security');
 
-ws-security('Rainbow');
+new WSSecurity('username', 'password');
 ```
 
 
