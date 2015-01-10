@@ -9,7 +9,7 @@ function WSSecurity(username, password, passwordType) {
     this._passwordType = passwordType || 'PasswordText';
 }
 
-WSSecurity.prototype.toXML = function () {
+WSSecurity.prototype.toXML = function() {
     // avoid dependency on date formatting libraries
     function getDate(d) {
         function pad(n) {
