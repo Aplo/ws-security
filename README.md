@@ -3,6 +3,7 @@
 > Implementing WS-Security on SOAP webservices
 
 This module is based on the work from the vpulim/node-soap module. This implementation now makes it available to other SOAP Clients using nodejs.
+This module is a rewrite to make the attributes passed private (username and password).
 
 ## Install
 
@@ -14,9 +15,11 @@ $ npm install --save ws-security
 ## Usage
 
 ```js
-var WSSecurity = require('ws-security');
+var wsSecurity = require('ws-security');
 
-new WSSecurity('username', 'password');
+var sec = wsSecurity('username', 'password');
+
+var xml = sec.toXML();
 ```
 
 

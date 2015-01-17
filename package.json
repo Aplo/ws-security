@@ -1,6 +1,6 @@
 {
     "name": "ws-security",
-    "version": "0.1.2",
+    "version": "0.2.0",
     "description": "Implementing WS-Security on SOAP webservices",
     "homepage": "https://github.com/AlexSantos/ws-security",
     "author": {
