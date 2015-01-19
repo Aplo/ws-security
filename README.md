@@ -8,16 +8,16 @@ This module is a rewrite to make the attributes passed private (username and pas
 ## Install
 
 ```sh
-$ npm install --save ws-security
+$ npm install ws-security
 ```
 
 
 ## Usage
 
 ```js
-var wsSecurity = require('ws-security');
+var WSSecurity = require('ws-security');
 
-var sec = wsSecurity('username', 'password');
+var sec = new WSSecurity('username', 'password');
 
 var xml = sec.toXML();
 ```

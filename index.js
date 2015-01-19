@@ -26,7 +26,7 @@
 var crypto = require('crypto'),
     passwordDigest = require('./lib/utils').passwordDigest;
 
-function wsSecurity(username, password, passwordType) {
+function WSSecurity(username, password, passwordType) {
     var that = {
         _username: username,
         _password: password,
@@ -71,4 +71,4 @@ function wsSecurity(username, password, passwordType) {
         }
     };
 }
-module.exports = wsSecurity;
+module.exports = WSSecurity;
