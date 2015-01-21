@@ -1,6 +1,6 @@
 #  [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-url]][daviddm-image]
 
-> Implementing WS-Security on SOAP webservices
+> Implementing WS-Security on SOAP clients
 
 This module is based on the work from the vpulim/node-soap module. This implementation now makes it available to other SOAP Clients using nodejs.
 This module is a rewrite to make the attributes passed private (username and password).
