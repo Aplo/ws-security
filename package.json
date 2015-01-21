@@ -1,7 +1,7 @@
 {
     "name": "ws-security",
     "version": "0.2.1",
-    "description": "Implementing WS-Security on SOAP webservices",
+    "description": "Implementing WS-Security on SOAP clients",
     "homepage": "https://github.com/AlexSantos/ws-security",
     "author": {
         "name": "Alexandre Santos",
