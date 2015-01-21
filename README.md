@@ -1,5 +1,7 @@
 #  [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-url]][daviddm-image]
 
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/AlexSantos/ws-security?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 > Implementing WS-Security on SOAP clients
 
 This module is based on the work from the vpulim/node-soap module. This implementation now makes it available to other SOAP Clients using nodejs.
