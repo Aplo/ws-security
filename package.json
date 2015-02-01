@@ -1,14 +1,14 @@
 {
     "name": "ws-security",
-    "version": "0.2.2",
+    "version": "0.2.3",
     "description": "Implementing WS-Security on SOAP clients",
-    "homepage": "https://github.com/AlexSantos/ws-security",
+    "homepage": "https://github.com/alexsantos/ws-security",
     "author": {
         "name": "Alexandre Santos",
         "email": "santosam72@gmail.com",
-        "url": "https://github.com/AlexSantos"
+        "url": "https://github.com/alexsantos"
     },
-    "repository": "AlexSantos/ws-security",
+    "repository": "alexsantos/ws-security",
     "license": "MIT",
     "files": [
         "index.js"
