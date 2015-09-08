@@ -1,6 +1,6 @@
-#  [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-url]][daviddm-image]
+# WS-Security for Node.js
 
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/alexsantos/ws-security?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+*Forked from [https://github.com/alexsantos/ws-security](https://github.com/alexsantos/ws-security). Their version was missing a critical file which caused errors when installing from NPM. This fork fixes that issue. We will do our best to maintain and keep this up to date but this library is not our highest priority right now.*
 
 > Implementing WS-Security on SOAP clients
 
@@ -10,7 +10,7 @@ This module is a rewrite to make the attributes passed private (username and pas
 ## Install
 
 ```sh
-$ npm install ws-security
+$ npm install wssecurity
 ```
 
 

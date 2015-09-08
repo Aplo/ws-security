@@ -1,14 +1,14 @@
 {
-    "name": "ws-security",
+    "name": "wssecurity",
     "version": "0.2.3",
     "description": "Implementing WS-Security on SOAP clients",
-    "homepage": "https://github.com/alexsantos/ws-security",
+    "homepage": "https://github.com/Aplo/ws-security",
     "author": {
-        "name": "Alexandre Santos",
-        "email": "santosam72@gmail.com",
-        "url": "https://github.com/alexsantos"
+        "name": "Bill Patrianakos",
+        "email": "opensource@aploquote.com",
+        "url": "https://github.com/Aplo"
     },
-    "repository": "alexsantos/ws-security",
+    "repository": "aplo/wssecurity",
     "license": "MIT",
     "files": [
         "index.js"
