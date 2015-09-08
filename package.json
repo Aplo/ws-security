@@ -1,6 +1,6 @@
 {
     "name": "wssecurity",
-    "version": "0.2.3",
+    "version": "0.2.4",
     "description": "Implementing WS-Security on SOAP clients",
     "homepage": "https://github.com/Aplo/ws-security",
     "author": {
@@ -10,9 +10,7 @@
     },
     "repository": "aplo/wssecurity",
     "license": "MIT",
-    "files": [
-        "index.js"
-    ],
+    "main": "index.js",
     "keywords": [
         "ws-security",
         "soap",
